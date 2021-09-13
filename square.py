@@ -10,9 +10,6 @@ speed = 3
 length = 3.1415
 
 print('Starting square . . .')
-
-# TODO: Modify the code below so that the robot moves in a square
-
     
 def straight_line(length,vel_msg,pub):
 	vel_msg.linear.x = speed
